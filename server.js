@@ -1,13 +1,6 @@
-var express = require("express");
+const express = require('express')
+const PORT = process.env.PORT || 5000
 
-var app = express();
-var PORT = process.env.PORT
-
-app.use(express.static("client"));
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-
-
-app.listen(PORT, function() {
-  console.log(`Now listening on port: ${PORT}`);
-});
+express()
+  .use(express.static(path.join(__dirname, 'client')))
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
