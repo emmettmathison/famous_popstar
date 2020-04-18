@@ -19,6 +19,7 @@
   "homepage": "https://github.com/emmettmathison/famous_popstar#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "node": "^13.13.0"
+    "node": "^13.13.0",
+    "path": "^0.12.7"
   }
 }
