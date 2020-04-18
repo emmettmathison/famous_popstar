@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/emmettmathison/famous_popstar/issues"
   },
-  "homepage": "https://github.com/emmettmathison/famous_popstar#readme"
+  "homepage": "https://github.com/emmettmathison/famous_popstar#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^13.13.0"
+  }
 }
